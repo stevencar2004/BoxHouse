@@ -56,24 +56,18 @@
 		<div class="content__finish__info">
 			<h3 class="content__finish__info__title"><span class="highlight"> Box</span>House</h3>
 			<p class="content__finish__info__text">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente magni reiciendis
-				asperiores necessitatibus sequi doloremque quibusdam quos? Quos consequuntur non
-				odio accusamus dignissimos. Tenetur excepturi eius laborum fugit id quo. <br> <br>
-				&copy; Steven Cardona Betancur 2020
+				&copy; Steven Cardona Betancur  |  2020 
 			</p>
 		</div>
 		<div class="content__finish__social">
-			<a href="#" role="button" class="button">
-				<span class="button__text button__text--blue"></span>
-				<i class="butto__icon fab fa-facebook-square"></i>
+			<a href="#" role="button" class="button__social">
+				<i class="butto__icon button__icon--blue fab fa-facebook-square"></i>
 			</a>
-			<a href="#" role="button" class="button">
-				<span class="button__text button__text--purple"></span>
-				<i class="button__icon fab fa-instagram"></i>
+			<a href="#" role="button" class="button__social">
+				<i class="button__icon button__text--purple fab fa-instagram"></i>
 			</a>
-			<a href="#" role="button" class="button">
-				<span class="button__text button__text--light"></span>
-				<i class="button_icon fab fa-twitter-square"></i>
+			<a href="#" role="button" class="button__social">
+				<i class="button_icon button__text--light fab fa-twitter-square"></i>
 			</a>
 		</div>
 	</footer>
