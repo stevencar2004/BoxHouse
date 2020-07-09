@@ -1,15 +1,41 @@
+/* ESTILOS DEL ACERCA DE  */
 .content__about {
 	width: 100%;
 	height: 70vh;
 	background: green;
 }
+
+/* -------------ESTILOS DEL FOOTER------------- */
 .content__finish {
 	width: 100%;
 	height: 20vh;
 	background: aqua;
+	overflow: hidden;
+	clear: both;
 }
+/* ESTILOS DE LA INFORMACION */
 .content__finish__info {
 	background: yellow;
 	width: 70%;
 	height: 100%;
+	float: left;
+	padding: 10px 20px;
+}
+.content__finish__info__title {
+	width: 100%;
+	font-size: 19px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.content__finish__info__text {
+	width: 100%;
+	font-size: 15px;
+	font-weight: 100;
+}
+/* ESTILOS PARA LOS ICONOS DE LAS REDES SOCIALES */
+.content__finish__social {
+	width: 30%;
+	height: 100%;
+	background-color: black;
+	float: left;
 }
