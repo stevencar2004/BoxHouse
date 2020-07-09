@@ -1,3 +1,8 @@
+:root {
+	--font-text: spartan;
+	--font-title: cambay;
+}
+
 /* ESTILOS DEL ACERCA DE  */
 .content__about {
 	width: 100%;
@@ -26,9 +31,11 @@
 	font-size: 18px;
 	font-weight: 700;
 	margin-bottom: 15px;
+	font-family: var(--font-title);
 }
 .content__finish__info__text {
 	width: 100%;
+	font-family: var(--font-text);
 	font-size: 15px;
 	font-weight: 100;
 	font-weight: 200;
@@ -46,21 +53,35 @@
 	align-items: center;
 	justify-content: center;
 }
-.button__text--blue,
-.button__text--purple,
-.button__text--light {
+
+.button__social {
+	text-decoration: none;
+	display: inline-block;
 	color: white;
 	font-size: 23px;
 	border-radius: 50%;
 	margin: 0;
-	padding: 10px;
+	padding: 8px 20px;
 }
+
 .button__text--blue {
 	background-color: blue;
+}
+.button__text--blue:hover {
+	background: blue;
+	color: white;
 }
 .button__text--purple {
 	background-color: purple;
 }
+.button__text--purple:hover {
+	background-color: purple;
+	color: white;
+}
 .button__text--light {
 	background-color: aqua;
+}
+.button__text--light:hover {
+	background-color: aqua;
+	color: white;
 }

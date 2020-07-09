@@ -24,10 +24,16 @@
 	border-collapse: collapse;
 }
 .content__table__rows {
-	padding: 14px;
 }
 .content__table__rows__head {
+	padding: 14px;
 	background-color: red;
+	font-weight: bold;
+}
+.content__table__dates {
+	padding: 15px;
+}
+.content__table__dates__resaltar {
 	font-weight: bold;
 }
 /* ESTILOS DEL TITULO */
@@ -42,7 +48,7 @@
 	font-weight: 800;
 	line-height: 600px;
 	text-align: center;
-	background-color: gray;
+
 	font-size: 100px;
 	color: red;
 }
