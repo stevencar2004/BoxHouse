@@ -14,7 +14,7 @@
 	height: 100%;
 	width: 60%;
 	margin: 0 auto;
-	float: left;
+	float: right;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -32,10 +32,10 @@
 	font-family: var(--font-title);
 }
 .content__table__dates {
-	padding: 20px;
+	padding: 18px;
 	font-family: var(--font-text);
 }
-.content__table__dates:nth-child(even) {
+.content__table__rows:nth-child(even) {
 	background: rgba(231, 76, 60, 0.5);
 }
 .content__table__dates__resaltar {
@@ -46,7 +46,7 @@
 .content__horarios__head {
 	width: 40%;
 	height: 100%;
-	float: right;
+	float: left;
 }
 .content__horarios__title {
 	font-family: var(--font-title);
