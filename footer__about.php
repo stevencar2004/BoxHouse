@@ -61,13 +61,16 @@
 		</div>
 		<div class="content__finish__social">
 			<a href="#" role="button" class="button__social">
-				<i class="button__icon button__icon--blue fab fa-facebook-square"></i>
+				<i class="button__icon button__icon--blue fab fa-facebook-f"></i>
 			</a>
 			<a href="#" role="button" class="button__social">
 				<i class="button__icon button__icon--purple fab fa-instagram"></i>
 			</a>
 			<a href="#" role="button" class="button__social">
-				<i class="button__icon button__icon--light fab fa-twitter-square"></i>
+				<i class="button__icon button__icon--light fab fa-twitter"></i>
+			</a>
+			<a href="#" role="button" class="button__social">
+				<i class="button__icon button__icon--blue--light fab fa-linkedin-in"></i>
 			</a>
 		</div>
 	</footer>
