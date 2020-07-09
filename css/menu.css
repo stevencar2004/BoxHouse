@@ -1,0 +1,67 @@
+:root {
+	--font-text: spartan;
+	--font-title: cambay;
+}
+/* ----------------ESTILOS PARA LA CABECERA DE LA PAGINA---------------- */
+.header {
+	background: black;
+
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	height: 10vh;
+	overflow: hidden;
+
+	font-family: var(--font-title);
+}
+.header__content__title {
+	/* background: red; */
+
+	width: 40%;
+	padding: 0 12px;
+	line-height: 70px;
+	float: left;
+}
+.header__content__link {
+	font-weight: 800;
+	color: white;
+	text-decoration: none;
+}
+.header__title {
+	/* font-family: ; */
+	font-size: 35px;
+}
+.highlight {
+	color: red;
+}
+
+/* ESTILOS PARA EL MENU DE LA PAGINA */
+.header__navigation {
+	width: 60%;
+	float: left;
+}
+.navigation__list {
+	list-style: none;
+	float: right;
+}
+.navigation__items {
+	float: left;
+}
+.navigation__link {
+	text-align: right;
+	font-size: 14px;
+	line-height: 45px;
+	color: white;
+	font-family: var(--font-title);
+	font-weight: 100;
+	text-transform: uppercase;
+	font-weight: 100;
+	padding: 10px 20px;
+	text-decoration: none;
+	display: inline-block;
+	transition: 0.5s ease all;
+}
+.navigation__link:hover {
+	color: red;
+}
