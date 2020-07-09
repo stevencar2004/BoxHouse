@@ -31,6 +31,10 @@
 				<input type="submit" value="Agendar" class="submit" class="content__agendar__form__input button__text" />
 				<i class="button__icon far fa-calendar-alt"></i>
 			</div>
+			<div class="content__agendar__form__input__button ">
+				<input type="submit" value="Agendar" class="submit" class="content__agendar__form__input button" />
+				<i class="button__icon far fa-calendar-alt"></i>
+			</div>
 		</form>
 		<article class="content__agendar__location">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991.2360797851393!

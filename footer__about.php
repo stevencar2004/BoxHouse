@@ -64,10 +64,10 @@
 				<i class="butto__icon button__icon--blue fab fa-facebook-square"></i>
 			</a>
 			<a href="#" role="button" class="button__social">
-				<i class="button__icon button__text--purple fab fa-instagram"></i>
+				<i class="button__icon button__icon--purple fab fa-instagram"></i>
 			</a>
 			<a href="#" role="button" class="button__social">
-				<i class="button_icon button__text--light fab fa-twitter-square"></i>
+				<i class="button_icon button__icon--light fab fa-twitter-square"></i>
 			</a>
 		</div>
 	</footer>
