@@ -14,7 +14,7 @@
 .content__agendar__form {
 	width: 40%;
 	margin: 0 auto;
-	height: 90%;
+	height: 100%;
 	background: red;
 	float: right;
 	border-radius: 30px;
@@ -48,7 +48,7 @@
 .content__agendar__location {
 	width: 50%;
 	height: 100%;
-	float: right;
+	float: left;
 }
 .content__agendar__location__map {
 	width: 100%;
