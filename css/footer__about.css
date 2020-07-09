@@ -57,14 +57,14 @@
 .button__social {
 	text-decoration: none;
 	display: inline-block;
-	color: white;
-	font-size: 23px;
+	font-size: 25px;
 	border-radius: 200px;
 	margin: 0;
-	padding: 10px 25px;
 	transition: 0.5s ease all;
 }
-
+.button__icon {
+	padding: 10px 25px;
+}
 .button__icon--blue {
 	background-color: blue;
 }
