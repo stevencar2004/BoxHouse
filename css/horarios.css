@@ -12,7 +12,7 @@
 /* ESTILOS PARA LA TABLA */
 .content__horarios__contain {
 	height: 100%;
-	width: 60%;
+	width: 50%;
 	margin: 0 auto;
 	float: right;
 	display: flex;
@@ -32,7 +32,7 @@
 	font-family: var(--font-title);
 }
 .content__table__dates {
-	padding: 18px;
+	padding: 16px;
 	font-family: var(--font-text);
 }
 .content__table__rows:nth-child(even) {
