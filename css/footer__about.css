@@ -28,15 +28,15 @@
 }
 .content__finish__info__title {
 	width: 100%;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 700;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	font-family: var(--font-title);
 }
 .content__finish__info__text {
 	width: 100%;
 	font-family: var(--font-text);
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 100;
 	font-weight: 200;
 	font-style: italic;
@@ -59,29 +59,30 @@
 	display: inline-block;
 	color: white;
 	font-size: 23px;
-	border-radius: 50%;
+	border-radius: 200px;
 	margin: 0;
-	padding: 8px 20px;
+	padding: 10px 25px;
+	transition: 0.5s ease all;
 }
 
-.button__text--blue {
+.button__icon--blue {
 	background-color: blue;
 }
-.button__text--blue:hover {
+.button__icon--blue:hover {
 	background: blue;
 	color: white;
 }
-.button__text--purple {
+.button__icon--purple {
 	background-color: purple;
 }
-.button__text--purple:hover {
+.button__icon--purple:hover {
 	background-color: purple;
 	color: white;
 }
-.button__text--light {
+.button__icon--light {
 	background-color: aqua;
 }
-.button__text--light:hover {
+.button__icon--light:hover {
 	background-color: aqua;
 	color: white;
 }

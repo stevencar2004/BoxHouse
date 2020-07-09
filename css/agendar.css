@@ -14,10 +14,14 @@
 .content__agendar__form {
 	width: 40%;
 	margin: 0 auto;
-	height: 50%;
+	height: 90%;
 	background: red;
 	float: right;
 	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 .content__agendar__form__title {
 	width: 100%;
@@ -42,7 +46,7 @@
 }
 /* ESTILOS PARA EL MAPA */
 .content__agendar__location {
-	width: 60%;
+	width: 50%;
 	height: 100%;
 	float: right;
 }
