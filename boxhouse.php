@@ -51,7 +51,7 @@
 						<a class="navigation__link " href="#agendar">Agenda Tu Clase</a>
 					</li>
 					<li class="navigation__items">
-						<a class="navigation__link" href="#quienes_somos">Quienes Somos</a>
+						<a class="navigation__link" href="#testimonios">Testimonios</a>
 					</li>
 				</ul>
 			</nav>
@@ -86,7 +86,7 @@
 				?>
 			</section>
 
-			<section class="content__body" id="quienes_somos">
+			<section class="content__body" id="testimonios">
 				<?php
 				 require_once "footer__about.php" ;
 				?>
