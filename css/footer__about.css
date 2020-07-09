@@ -58,13 +58,15 @@
 	text-decoration: none;
 	display: inline-block;
 	margin: 0;
+	transition: 0.5s ease all;
 }
 .button__icon {
-	font-size: 25px;
+	font-size: 20px;
 	transition: 0.5s ease all;
 	border-radius: 50%;
-	padding: 10px 25px;
+	padding: 10px;
 	color: white;
+	margin-right: 8px;
 }
 .button__icon--blue {
 	background-color: blue;
@@ -81,9 +83,9 @@
 	color: purple;
 }
 .button__icon--light {
-	background-color: aqua;
+	background-color: rgba(52, 152, 219, 1);
 }
 .button__icon--light:hover {
 	background-color: white;
-	color: aqua;
+	color: rgba(52, 152, 219, 1);
 }
