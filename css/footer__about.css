@@ -64,25 +64,31 @@
 	font-size: 20px;
 	transition: 0.5s ease all;
 	border-radius: 50%;
-	padding: 10px;
+	padding: 10px 11px;
 	color: white;
-	margin-right: 12px;
+	margin-right: 15px;
 }
 .button__icon--blue {
-	background-color: rgba(30, 55, 153, 1);
+	background-color: rgba(30, 55, 153, 0.8);
 }
 .button__icon--blue:hover {
-	background: rgba(30, 55, 153, 0.4);
+	background-color: rgba(30, 55, 153, 1);
 }
 .button__icon--purple {
-	background-color: rgba(142, 68, 173, 1);
+	background-color: rgba(142, 68, 173, 0.8);
 }
 .button__icon--purple:hover {
-	background-color: rgba(142, 68, 173, 0.4);
+	background-color: rgba(142, 68, 173, 1);
 }
 .button__icon--light {
-	background-color: rgba(52, 152, 219, 1);
+	background-color: rgba(52, 152, 219, 0.8);
 }
 .button__icon--light:hover {
-	background-color: rgba(52, 152, 219, 0.4);
+	background-color: rgba(52, 152, 219, 1);
+}
+.button__icon--blue--light {
+	background-color: rgba(41, 128, 185, 0.8);
+}
+.button__icon--blue--light:hover {
+	background-color: rgba(41, 128, 185, 1);
 }
