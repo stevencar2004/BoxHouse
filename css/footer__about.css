@@ -45,7 +45,7 @@
 .content__finish__social {
 	width: 30%;
 	height: 100%;
-	float: left;
+	float: right;
 
 	display: flex;
 	flex-direction: row;
@@ -66,26 +66,23 @@
 	border-radius: 50%;
 	padding: 10px;
 	color: white;
-	margin-right: 8px;
+	margin-right: 12px;
 }
 .button__icon--blue {
-	background-color: blue;
+	background-color: rgba(30, 55, 153, 1);
 }
 .button__icon--blue:hover {
-	background: white;
-	color: blue;
+	background: rgba(30, 55, 153, 0.4);
 }
 .button__icon--purple {
-	background-color: purple;
+	background-color: rgba(142, 68, 173, 1);
 }
 .button__icon--purple:hover {
-	background-color: white;
-	color: purple;
+	background-color: rgba(142, 68, 173, 0.4);
 }
 .button__icon--light {
 	background-color: rgba(52, 152, 219, 1);
 }
 .button__icon--light:hover {
-	background-color: white;
-	color: rgba(52, 152, 219, 1);
+	background-color: rgba(52, 152, 219, 0.4);
 }
