@@ -11,22 +11,26 @@
 
 	<footer class="content__finish">
 		<div class="content__finish__info">
-			<h3>BoxHouse</h3>
-			<p>
+			<h3 class="content__finish__info__title">BoxHouse</h3>
+			<p class="content__finish__info__text">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente magni reiciendis
 				asperiores necessitatibus sequi doloremque quibusdam quos? Quos consequuntur non
-				odio accusamus dignissimos. Tenetur excepturi eius laborum fugit id quo.
+				odio accusamus dignissimos. Tenetur excepturi eius laborum fugit id quo. <br>
+				&copy; Steven Cardona Betancur 2020
 			</p>
 		</div>
 		<div class="content__finish__social">
-			<a href="#">
-				<span>Facebook</span>
+			<a href="#" role="button" class="button">
+				<span class="button__text">Facebook</span>
+				<i class="butto__icon fab fa-facebook-square"></i>
 			</a>
-			<a href="#">
-				<span>Instagram</span>
+			<a href="#" role="button" class="button">
+				<span class="button__text">Instagram</span>
+				<i class="button__icon fab fa-instagram"></i>
 			</a>
-			<a href="#">
-				<span>Twiter</span>
+			<a href="#" role="button" class="button">
+				<span class="button__text">Twiter</span>
+				<i class="button_icon fab fa-twitter-square"></i>
 			</a>
 		</div>
 	</footer>
