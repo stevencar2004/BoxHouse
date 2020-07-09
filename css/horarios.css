@@ -9,6 +9,27 @@
 	overflow: hidden;
 	clear: both;
 }
+/* ESTILOS PARA LA TABLA */
+.content__horarios__contain {
+	width: 90%;
+	height: 100%;
+	background-color: yellow;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.content__table {
+	border-collapse: collapse;
+}
+.content__table__rows {
+	padding: 14px;
+}
+.content__table__rows__head {
+	background-color: red;
+	font-weight: bold;
+}
 /* ESTILOS DEL TITULO */
 .content__horarios__head {
 	width: 40%;
@@ -31,10 +52,4 @@
 	float: right;
 	width: 60%;
 	height: 100%;
-}
-.content__table {
-	background: yellow;
-}
-.content__table__body {
-	background: aqua;
 }

@@ -1,41 +1,66 @@
 /* ESTILOS DEL ACERCA DE  */
 .content__about {
 	width: 100%;
-	height: 70vh;
+	height: 80vh;
 	background: green;
 }
 
 /* -------------ESTILOS DEL FOOTER------------- */
 .content__finish {
 	width: 100%;
-	height: 20vh;
-	background: aqua;
+	height: 10vh;
 	overflow: hidden;
 	clear: both;
+	background: black;
 }
 /* ESTILOS DE LA INFORMACION */
 .content__finish__info {
-	background: yellow;
 	width: 70%;
 	height: 100%;
 	float: left;
 	padding: 10px 20px;
+	color: white;
 }
 .content__finish__info__title {
 	width: 100%;
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: 700;
 	margin-bottom: 15px;
 }
 .content__finish__info__text {
 	width: 100%;
 	font-size: 15px;
 	font-weight: 100;
+	font-weight: 200;
+	font-style: italic;
 }
 /* ESTILOS PARA LOS ICONOS DE LAS REDES SOCIALES */
 .content__finish__social {
 	width: 30%;
 	height: 100%;
-	background-color: black;
 	float: left;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.button__text--blue,
+.button__text--purple,
+.button__text--light {
+	color: white;
+	font-size: 23px;
+	border-radius: 50%;
+	margin: 0;
+	padding: 10px;
+}
+.button__text--blue {
+	background-color: blue;
+}
+.button__text--purple {
+	background-color: purple;
+}
+.button__text--light {
+	background-color: aqua;
 }
