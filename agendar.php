@@ -20,21 +20,18 @@
 			</select>
 
 			<div class="contain__radio">
-				<h3 class="contain__radio">Disciplina</h3>
-				<label class="contain__radio__label"> <input type="radio" name="genero" value="Hombre" class="contain__radio"/> Boxeo </label>
-				<label class="contain__radio__label"> <input type="radio" name="genero" value="Mujer" class="contain__radio"/> KickBoxing </label>
-				<label class="contain__radio__label"> <input type="radio" name="genero" value="Mujer" class="contain__radio"/> MuyThay </label>
-				<label class="contain__radio__label"> <input type="radio" name="genero" value="Mujer" class="contain__radio"/> MMA </label>
-			</div>
-
-			<div class="content__agendar__form__input__button button">
-				<input type="submit" value="Agendar" class="submit" class="content__agendar__form__input button__text" />
-				<i class="button__icon far fa-calendar-alt"></i>
+				<h3 class="contain__radio__title">Disciplina</h3>
+				<label class="contain__radio__label"> <input type="radio" name="genero" value="Hombre" class="contain__radio__input"/> Boxeo </label>
+				<label class="contain__radio__label"> <input type="radio" name="genero" value="Mujer" class="contain__radio__input"/> KickBoxing </label>
+				<label class="contain__radio__label"> <input type="radio" name="genero" value="Mujer" class="contain__radio__input"/> MuyThay </label>
+				<label class="contain__radio__label"> <input type="radio" name="genero" value="Mujer" class="contain__radio__input"/> MMA </label>
 			</div>
 			
-			<i class="content__button far fa-calendar-alt">
-				<input type="submit" value="Agendar" class="submit" class="content__button__input" />
-			</i>
+			<div class="content__button">
+				<input type="submit" value="Agendar" class="content__button__input" />
+				<i class="content__button__icon far fa-calendar-alt">
+				</i>
+			</div>
 			
 		</form>
 		<article class="content__agendar__location">
