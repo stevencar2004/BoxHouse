@@ -19,22 +19,23 @@
 				<option value="">8:00 PM - 10:30 PM</option>
 			</select>
 
-			<div class="content__agendar__form__contain__radio">
-				<h3>Disciplina</h3>
-				<label> <input type="radio" name="genero" value="Hombre" /> Boxeo </label>
-				<label> <input type="radio" name="genero" value="Mujer" /> KickBoxing </label>
-				<label> <input type="radio" name="genero" value="Mujer" /> MuyThay </label>
-				<label> <input type="radio" name="genero" value="Mujer" /> MMA </label>
+			<div class="contain__radio">
+				<h3 class="contain__radio">Disciplina</h3>
+				<label class="contain__radio__label"> <input type="radio" name="genero" value="Hombre" class="contain__radio"/> Boxeo </label>
+				<label class="contain__radio__label"> <input type="radio" name="genero" value="Mujer" class="contain__radio"/> KickBoxing </label>
+				<label class="contain__radio__label"> <input type="radio" name="genero" value="Mujer" class="contain__radio"/> MuyThay </label>
+				<label class="contain__radio__label"> <input type="radio" name="genero" value="Mujer" class="contain__radio"/> MMA </label>
 			</div>
 
 			<div class="content__agendar__form__input__button button">
 				<input type="submit" value="Agendar" class="submit" class="content__agendar__form__input button__text" />
 				<i class="button__icon far fa-calendar-alt"></i>
 			</div>
-			<div class="content__agendar__form__input__button ">
-				<input type="submit" value="Agendar" class="submit" class="content__agendar__form__input button" />
-				<i class="button__icon far fa-calendar-alt"></i>
-			</div>
+			
+			<i class="content__button far fa-calendar-alt">
+				<input type="submit" value="Agendar" class="submit" class="content__button__input" />
+			</i>
+			
 		</form>
 		<article class="content__agendar__location">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991.2360797851393!
