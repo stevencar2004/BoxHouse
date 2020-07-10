@@ -37,8 +37,6 @@
 	margin-bottom: 10px;
 }
 .content__agendar__form__label,
-.content__agendar__form__contain__radio,
-.content__agendar__form__input__button,
 .content__agendar__form__input {
 	display: block;
 	width: 90%;
@@ -48,37 +46,33 @@
 	font-family: var(--font-text);
 	font-weight: 500;
 	font-size: 17px;
-	margin: 15px 0;
+	margin: 13px 0;
 	color: red;
+	transition: 0.4s ease all;
 }
 .content__agendar__form__input {
 	padding: 12px 0px;
 	outline: none;
 	border: none;
 	border-bottom: 3px solid red;
+	color: red;
 	border-radius: 4px;
 	background: rgba(236, 240, 241, 0.5);
 }
-.content__agendar__form__select {
-	font-family: var(--font-text);
-	padding: 12px;
-	outline: none;
-	color: red;
+.content__agendar__form__input:hover .content__agendar__form__label {
+	margin: 15px;
 }
-.content__agendar__form__contain__radio {
-	margin: 15px 0;
+.contain__radio {
 }
-.content__agendar__form__input__button {
-	width: 90%;
-	margin: 0 auto;
+.content__button {
 }
-.content__agendar__form__input[input] {
+.content__button__input {
+	background-color: red;
+	color: white;
 	width: 100%;
-	padding: 15px;
+	height: 30px;
+	border-radius: 50px;
 	position: relative;
-}
-.button__icon {
-	position: absolute;
 }
 /* ESTILOS PARA EL MAPA */
 .content__agendar__location {
