@@ -1,56 +1,97 @@
-	<article class="content__testimonios">
-		 <div class="content__testimonios__card">
-			 <div class="content__testimonios__card__contain">
-				 <img src="" alt="" clas="content__testimonios__card__contain__img">
-			 </div>
-			 <div class="content__testimonios__card__info">
-				 <p class="content__testimonios__card__info__text">
-					 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ducimus saepe fuga 
-					 reprehenderit alias odit nesciunt nemo dicta optio voluptatum facilis consequuntur reiciendis 
-					 molestias quisquam, molestias quisquam, beatae quia laudantium, non vitae?
-					 beatae quia laudantium, non vitae?
-				 </p>
-				 <cite>
-					 Nombra de la Persona <br>
-					 2020
-				 </cite>
-			 </div>
-		 </div>
-		 <div class="content__testimonios__card">
-			 <div class="content__testimonios__card__contain">
-				 <img src="" alt="" clas="content__testimonios__card__contain__img">
-			 </div>
-			 <div class="content__testimonios__card__info">
-				 <p class="content__testimonios__card__info__text">
-					 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ducimus saepe fuga 
-					 reprehenderit alias odit nesciunt nemo dicta optio voluptatum facilis consequuntur reiciendis 
-					 molestias quisquam, molestias quisquam, beatae quia laudantium, non vitae?
-					 beatae quia laudantium, non vitae?
-				 </p>
-				 <cite>
-					 Nombra de la Persona <br>
-					 2020
-				 </cite>
-			 </div>
-		 </div>
-		 <div class="content__testimonios__card">
-			 <div class="content__testimonios__card__contain">
-				 <img src="" alt="" clas="content__testimonios__card__contain__img">
-			 </div>
-			 <div class="content__testimonios__card__info">
-				 <p class="content__testimonios__card__info__text">
-					 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ducimus saepe fuga 
-					 reprehenderit alias odit nesciunt nemo dicta optio voluptatum facilis consequuntur reiciendis 
-					 molestias quisquam, molestias quisquam, beatae quia laudantium, non vitae?
-					 beatae quia laudantium, non vitae?
-				 </p>
-				 <cite>
-					 Nombra de la Persona <br>
-					 2020
-				 </cite>
-			 </div>
-		 </div>
-	</article>
+		<article class="content__testimonios">
+			<h2 class="testimonios__title">Testimonios</h2>
+			<p class="testimonios__text">
+				Nuestros boxeadores hablan con los resultados obtenidos
+			</p>
+			<div class="container__persons">
+				<div class="content__persons">
+					<div class="content__img">
+						<img src="img/foto-1.jpg" alt="" class="persons__img" />
+					</div>
+
+					<div class="content__info">
+						<h2 class="info__title">Boxeador 1</h2>
+						<h3 class="info__subtitle">Especializado en Kickboxing</h3>
+						<p class="info__text">
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat et rerum
+							sint velit impedit minima inventore, possimus voluptate. Reprehenderit,
+							voluptatibus?
+						</p>
+					</div>
+
+					<div class="content__finish__social">
+						<a href="#" role="button" class="button__social">
+							<i class="button__icon button__icon--blue fab fa-facebook-f"></i>
+						</a>
+						<a href="#" role="button" class="button__social">
+							<i class="button__icon button__icon--purple fab fa-instagram"></i>
+						</a>
+						<a href="#" role="button" class="button__social">
+							<i class="button__icon button__icon--blue--light fab fa-linkedin-in"></i>
+						</a>
+					</div>
+				</div>
+
+				<div class="content__persons">
+					<div class="content__img">
+						<img src="img/foto-2.jpg" alt="" class="persons__img" />
+					</div>
+
+					<div class="content__info">
+						<h2 class="info__title">Boxeador 2</h2>
+						<h3 class="info__subtitle">Especializado en Kickboxing</h3>
+						<p class="info__text">
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat et rerum
+							sint velit impedit minima inventore, possimus voluptate. Reprehenderit,
+							voluptatibus?
+						</p>
+					</div>
+
+					<div class="content__finish__social">
+						<a href="#" role="button" class="button__social">
+							<i class="button__icon button__icon--blue fab fa-facebook-f"></i>
+						</a>
+						<a href="#" role="button" class="button__social">
+							<i class="button__icon button__icon--purple fab fa-instagram"></i>
+						</a>
+						<a href="#" role="button" class="button__social">
+							<i class="button__icon button__icon--light fab fa-twitter"></i>
+						</a>
+						<a href="#" role="button" class="button__social">
+							<i class="button__icon button__icon--blue--light fab fa-linkedin-in"></i>
+						</a>
+					</div>
+				</div>
+
+				<div class="content__persons">
+					<div class="content__img">
+						<img src="img/foto-3.jpg" alt="" class="persons__img" />
+					</div>
+
+					<div class="content__info">
+						<h2 class="info__title">Boxeador 3</h2>
+						<h3 class="info__subtitle">Especializado en Kickboxing</h3>
+						<p class="info__text">
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat et rerum
+							sint velit impedit minima inventore, possimus voluptate. Reprehenderit,
+							voluptatibus?
+						</p>
+					</div>
+
+					<div class="content__finish__social">
+						<a href="#" role="button" class="button__social">
+							<i class="button__icon button__icon--blue fab fa-facebook-f"></i>
+						</a>
+						<a href="#" role="button" class="button__social">
+							<i class="button__icon button__icon--purple fab fa-instagram"></i>
+						</a>
+						<a href="#" role="button" class="button__social">
+							<i class="button__icon button__icon--light fab fa-twitter"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</article>
 
 	<footer class="content__finish">
 		<div class="content__finish__info">
