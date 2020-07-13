@@ -1,8 +1,4 @@
 		<article class="content__testimonios">
-			<h2 class="testimonios__title">Testimonios</h2>
-			<p class="testimonios__text">
-				Nuestros boxeadores hablan con los resultados obtenidos
-			</p>
 			<div class="container__persons">
 				<div class="content__persons">
 					<div class="content__img">
@@ -19,7 +15,7 @@
 						</p>
 					</div>
 
-					<div class="content__finish__social">
+					<div class="testimonios__social">
 						<a href="#" role="button" class="button__social">
 							<i class="button__icon button__icon--blue fab fa-facebook-f"></i>
 						</a>
@@ -47,7 +43,7 @@
 						</p>
 					</div>
 
-					<div class="content__finish__social">
+					<div class="testimonios__social">
 						<a href="#" role="button" class="button__social">
 							<i class="button__icon button__icon--blue fab fa-facebook-f"></i>
 						</a>
@@ -78,7 +74,7 @@
 						</p>
 					</div>
 
-					<div class="content__finish__social">
+					<div class="testimonios__social">
 						<a href="#" role="button" class="button__social">
 							<i class="button__icon button__icon--blue fab fa-facebook-f"></i>
 						</a>

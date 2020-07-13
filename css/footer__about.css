@@ -8,25 +8,95 @@
 	width: 100%;
 	height: 80vh;
 	background: green;
+	position: relative;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	background-image: url(../img/banner_testimonios_alt.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
 }
-.testimonios__title {
-	font-family: var(--font-title);
-	font-weight: 400;
-	font-size: 35px;
-	text-align: center;
-	margin-bottom: 15px;
+.content__testimonios::before {
+	width: 100%;
+	height: 100%;
+	content: "";
+	top: 0;
+	left: 0;
+	opacity: 0.7;
+	background: rgb(37, 35, 35);
+	position: absolute;
 }
 .testimonios__text {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px 0;
 	text-align: center;
 	font-family: var(--font-text);
-	font-weight: 100;
+	font-weight: 300;
 	font-style: italic;
-	font-size: 26px;
+	font-size: 24px;
+	position: relative;
 }
-img {
+.container__persons {
+	width: 100%;
+	height: 450px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.content__persons {
+	background-color: rgba(204, 204, 204, 0.7);
+	width: 27%;
+	height: 80%;
+	margin: 0 30px;
+	border-radius: 30px;
+	position: relative;
+}
+.content__img {
+	text-align: center;
 	width: 120px;
 	height: 120px;
+	margin: -30px auto;
+}
+.persons__img {
 	border-radius: 50%;
+}
+.content__info {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	font-weight: 700;
+	color: red;
+}
+.info__subtitle {
+	text-align: center;
+	font-family: var(--font-title);
+	margin-bottom: 10px;
+	color: rgb(27, 27, 27);
+}
+.info__title {
+	text-align: center;
+	font-family: var(--font-title);
+	margin-bottom: 8px;
+	color: black;
+	font-weight: 700px;
+}
+.info__text {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: var(--font-text);
+	line-height: 23px;
+	font-weight: 300;
+	color: rgb(32, 32, 32);
+}
+.testimonios__social {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
 }
 /* -------------ESTILOS DEL FOOTER------------- */
 .content__finish {
