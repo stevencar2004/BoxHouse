@@ -16,50 +16,43 @@
 		</div>
 
 		<div class="input__box width50">
-			<i class="icon__left fas fa-calendar-alt"></i>
+			<!-- <i class="icon__left fas fa-calendar-alt"></i> -->
 				<input
 					type="date"
 					maxlength="15"
 					minlength="3"
 					required
 					class="form__input"
+					min="2020-01-01" 
+					max="2020-12-31"
 				/>
 		</div>
 
 		<div class="input__box width50">
-			<i class="icon__left fas fa-clock"></i>
-			
+			<!-- <i class="icon__left fas fa-clock"></i> -->		
 				<input
 					type="time"
 					maxlength="15"
 					minlength="3"
 					required
 					class="form__input"
+					min="07:30"
+					max="10:30"
 				/>
 		</div>
 
-		<div class="input__box ">
-			<select name="" id="">
-				<option value="">Disciplina 1</option>
-				<option value="">Disciplina 1</option>
-				<option value="">Disciplina 1</option>
-				<option value="">Disciplina 1</option>
-			</select>
-		</div>
-
-
-		<div class="input__box">
-			<label for="disciplina1">KickBoxing</label>
+		<div class="input__box input--radio">
 			<input type="radio" name="disciplina" id="disciplina1">
+			<label for="disciplina1">KickBoxing</label>
 
-			<label for="disciplina2">Boxeo</label>
 			<input type="radio" name="disciplina" id="disciplina2">
+			<label for="disciplina2">Boxeo</label>
 
-			<label for="disciplina3">MuiThay</label>
 			<input type="radio" name="disciplina" id="disciplina3">
+			<label for="disciplina3">MuiThay</label>
 
-			<label for="disciplina4">Mma</label>
 			<input type="radio" name="disciplina" id="disciplina4">
+			<label for="disciplina4">Mma</label>
 		</div>
 
 		<div class="input__box">
