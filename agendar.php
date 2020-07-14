@@ -1,46 +1,69 @@
 <!-- SECCION DE AGENDAR TU PRIMERA CLASE DE LA PAGINA -->
-
 <div class="content__agendar">
-		<form action="#" class="content__agendar__form">
-			<h2 class="content__agendar__form__title">Agenda tu Primer Clase</h2>
+	<form action="#" class="box__form">
+		<h2 class="form__title">Agendar</h2>
+		
+		<div class="input__box">
+			<i class="icon__left fas fa-user"></i>
+				<input
+					type="text"
+					maxlength="15"
+					minlength="3"
+					placeholder="Nombre"
+					required
+					class="form__input"
+				/>
+		</div>
 
-			<label class="content__agendar__form__label" for="user">Nombre</label>
-			<input type="text" maxlength="10" id="user" class="content__agendar__form__input" />
+		<div class="input__box width50">
+			<i class="icon__left fas fa-calendar-alt"></i>
+				<input
+					type="date"
+					maxlength="15"
+					minlength="3"
+					required
+					class="form__input"
+				/>
+		</div>
 
-			<label class="content__agendar__form__label" for="pass">Apellido</label>
-			<input type="text" name="" id="pass" class="content__agendar__form__input" />
+		<div class="input__box width50">
+			<i class="icon__left fas fa-clock"></i>
+			
+				<input
+					type="time"
+					maxlength="15"
+					minlength="3"
+					required
+					class="form__input"
+				/>
+		</div>
 
-			<label for="select" id="select" class="content__agendar__form__label">Horario</label>
-			<select name="" class="content__agendar__form__input"  id="select">
-				<option value="">7:00 AM - 9:30 AM</option>
-				<option value="">10:00 AM - 12:00 PM</option>
-				<option value="">2:00 PM - 4:30 PM</option>
-				<option value="">4:30 PM - 7:30 PM</option>
-				<option value="">8:00 PM - 10:30 PM</option>
+		<div class="input__box ">
+			<select name="" id="">
+				<option value="">Disciplina 1</option>
+				<option value="">Disciplina 1</option>
+				<option value="">Disciplina 1</option>
+				<option value="">Disciplina 1</option>
 			</select>
+		</div>
 
-			<div class="contain__radio">
-				<h3 class="contain__radio__title">Disciplina</h3>
-				<label class="contain__radio__label"> <input type="radio" name="genero" value="Hombre" class="contain__radio__input"/> Boxeo </label>
-				<label class="contain__radio__label"> <input type="radio" name="genero" value="Mujer" class="contain__radio__input"/> KickBoxing </label>
-				<label class="contain__radio__label"> <input type="radio" name="genero" value="Mujer" class="contain__radio__input"/> MuyThay </label>
-				<label class="contain__radio__label"> <input type="radio" name="genero" value="Mujer" class="contain__radio__input"/> MMA </label>
-			</div>
-			
-			<div class="content__button">
-				<input type="submit" value="Agendar" class="content__button__input" />
-				<i class="content__button__icon far fa-calendar-alt">
-				</i>
-			</div>
-			
-		</form>
-		<article class="content__agendar__location">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991.2360797851393!
-						2d-76.51753150719688!3d3.4774263710254565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!
-						4f13.1!3m3!1m2!1s0x8e30a624378e4973%3A0xef434bd4dbfda92!2sAtletic%20Fitness%20Gym
-						!5e0!3m2!1ses!2sco!4v1594298507706!5m2!1ses!2sco" 
-					width="600" height="450" frameborder="0" style="border:0;" 
-					allowfullscreen="" aria-hidden="false" tabindex="0" class="content__agendar__location__map">
-			</iframe>
-		</article>
-	</div>
+
+		<div class="input__box">
+			<label for="disciplina1">KickBoxing</label>
+			<input type="radio" name="disciplina" id="disciplina1">
+
+			<label for="disciplina2">Boxeo</label>
+			<input type="radio" name="disciplina" id="disciplina2">
+
+			<label for="disciplina3">MuiThay</label>
+			<input type="radio" name="disciplina" id="disciplina3">
+
+			<label for="disciplina4">Mma</label>
+			<input type="radio" name="disciplina" id="disciplina4">
+		</div>
+
+		<div class="input__box">
+			<input type="submit" value="Agendar" class="form__input" />
+		</div>
+	</form>
+</div>
