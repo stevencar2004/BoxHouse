@@ -1,59 +1,57 @@
-:root {
-	--font-text: spartan;
-	--font-title: cambay;
-}
-
 .content__horarios {
 	width: 100%;
 	height: 90vh;
 	overflow: hidden;
 	clear: both;
+	background-color: rgba(219, 219, 219, 0.828);
 }
 /* ESTILOS PARA LA TABLA */
 .content__horarios__contain {
 	height: 100%;
-	width: 50%;
+	width: 90%;
 	margin: 0 auto;
-	float: right;
+
 	display: flex;
-	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
-
 .content__table {
+	width: 90%;
+	height: 90%;
 	border-collapse: collapse;
-}
-.content__table__rows__head {
-	padding: 14px;
-	background-color: red;
-	color: white;
-	font-weight: bold;
-	font-family: var(--font-title);
-}
-.content__table__dates {
-	padding: 16px;
-	font-family: var(--font-text);
+	text-align: center;
+	box-shadow: 7px 15px 20px black;
 }
 .content__table__rows:nth-child(even) {
-	background: rgba(231, 76, 60, 0.5);
+	background-color: rgb(206, 206, 206);
 }
+.content__table__rows:nth-child(3),
+.content__table__rows:nth-child(5) {
+	background-color: rgb(255, 255, 255);
+}
+.content__table__dates {
+	font-family: var(--font-text);
+	font-weight: 300;
+	font-size: 20px;
+	border-bottom: 1px solid gray;
+}
+.content__table__rows:hover {
+	background-color: rgb(253, 167, 167);
+}
+.content__table__dates:hover {
+	background-color: rgb(255, 105, 105);
+	cursor: pointer;
+}
+.content__table__rows__head,
 .content__table__dates__resaltar {
-	font-weight: bold;
+	color: rgb(218, 218, 218);
+	background-color: black;
+	font-size: 23px;
 	font-family: var(--font-title);
+	font-weight: 500;
+	border: none;
 }
-/* ESTILOS DEL TITULO */
-.content__horarios__head {
-	width: 40%;
-	height: 100%;
-	float: left;
-}
-.content__horarios__title {
-	font-family: var(--font-title);
-	font-weight: 800;
-	line-height: 600px;
-	text-align: center;
-
-	font-size: 100px;
-	color: red;
+.content__table__rows__head:hover,
+.content__table__dates__resaltar:hover {
+	background-color: black;
 }

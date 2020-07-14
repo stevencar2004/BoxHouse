@@ -1,16 +1,3 @@
-:root {
-	--font-text: spartan;
-	--font-title: cambay;
-	--color: red;
-}
-
-/* .content__agendar {
-	width: 100%;
-	height: 90vh;
-	background: green;
-	overflow: hidden;
-	clear: both;
-} */
 /* ESTILOS PARA EL FORMULARIO */
 .content__agendar {
 	width: 100%;
@@ -26,7 +13,7 @@
 .content__agendar::before {
 	content: "";
 	position: absolute;
-	background-color: var(--color);
+	background-color: var(--color-primario);
 	width: 30%;
 	height: 100%;
 	top: 0;
@@ -61,7 +48,7 @@
 	font-weight: bold;
 	font-size: 40px;
 	margin-bottom: 25px;
-	color: var(--color);
+	color: var(--color-primario);
 	font-family: var(--font-title);
 }
 .input__box {
@@ -83,8 +70,8 @@ select {
 .form__input:focus,
 .form__input:valid,
 .width50:valid {
-	color: var(--color);
-	border-bottom: 2.8px solid var(--color);
+	color: var(--color-primario);
+	border-bottom: 2.8px solid var(--color-primario);
 }
 .width50 .form__input {
 	padding-left: 0;
@@ -115,13 +102,13 @@ select {
 	font-family: var(--font-text);
 }
 .input--radio label:hover {
-	color: var(--color);
+	color: var(--color-primario);
 	cursor: pointer;
 }
 .form__input[type="submit"] {
 	padding-left: 0;
 	text-align: center;
-	background-color: var(--color);
+	background-color: var(--color-primario);
 	color: white;
 	font-family: var(--font-title);
 	font-weight: bold;

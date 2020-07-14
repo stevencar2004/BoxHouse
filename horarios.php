@@ -4,12 +4,12 @@
 		<article class="content__horarios__contain">
 			<table class="content__table">
 				<tr class="content__table__rows content__table__rows__head">
-					<td class="content__table__dates">Horarios</td>
-					<td class="content__table__dates">Lunes</td>
-					<td class="content__table__dates">Martes</td>
-					<td class="content__table__dates">Miercoles</td>
-					<td class="content__table__dates">Jueves</td>
-					<td class="content__table__dates">Viernes</td>
+					<td class="">Horarios</td>
+					<td class="">Lunes</td>
+					<td class="">Martes</td>
+					<td class="">Miercoles</td>
+					<td class="">Jueves</td>
+					<td class="">Viernes</td>
 				</tr>
 				<tr class="content__table__rows">
 					<td  class="content__table__dates content__table__dates__resaltar" >7:00 AM - 9:30 AM</td>
@@ -55,8 +55,4 @@
 				</tr>
 			</table>
 		</article>
-
-		<div class="content__horarios__head">
-			<h2 class="content__horarios__title">HORARIOS</h2>
-		</div>
 	</article>

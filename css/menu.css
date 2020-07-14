@@ -1,8 +1,5 @@
-:root {
-	--font-text: spartan;
-	--font-title: cambay;
-}
-/* ----------------ESTILOS PARA LA CABECERA DE LA PAGINA---------------- */
+@import url(variables.css);
+
 .header {
 	background: black;
 
@@ -14,6 +11,7 @@
 	overflow: hidden;
 
 	font-family: var(--font-title);
+	z-index: 10000;
 }
 .header__content__title {
 	/* background: red; */
@@ -33,7 +31,7 @@
 	font-size: 35px;
 }
 .highlight {
-	color: red;
+	color: var(--color-primario);
 }
 
 /* ESTILOS PARA EL MENU DE LA PAGINA */
@@ -63,5 +61,5 @@
 	transition: 0.5s ease all;
 }
 .navigation__link:hover {
-	color: red;
+	color: var(--color-primario);
 }

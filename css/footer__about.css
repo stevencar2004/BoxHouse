@@ -1,8 +1,3 @@
-:root {
-	--font-text: spartan;
-	--font-title: cambay;
-}
-
 /* ESTILOS DEL ACERCA DE  */
 .content__testimonios {
 	width: 100%;
@@ -63,7 +58,7 @@
 	margin-top: 50px;
 	margin-bottom: 15px;
 	font-weight: 700;
-	color: red;
+	color: var(--color-primario);
 }
 .info__subtitle {
 	text-align: center;
@@ -151,25 +146,25 @@
 	margin-right: 15px;
 }
 .button__icon--blue {
-	background-color: rgba(30, 55, 153, 0.8);
+	background-color: rgba(30, 55, 153, 0.6);
 }
 .button__icon--blue:hover {
 	background-color: rgba(30, 55, 153, 1);
 }
 .button__icon--purple {
-	background-color: rgba(142, 68, 173, 0.8);
+	background-color: rgba(142, 68, 173, 0.6);
 }
 .button__icon--purple:hover {
 	background-color: rgba(142, 68, 173, 1);
 }
 .button__icon--light {
-	background-color: rgba(52, 152, 219, 0.8);
+	background-color: rgba(52, 152, 219, 0.6);
 }
 .button__icon--light:hover {
 	background-color: rgba(52, 152, 219, 1);
 }
 .button__icon--blue--light {
-	background-color: rgba(41, 128, 185, 0.8);
+	background-color: rgba(41, 128, 185, 0.6);
 }
 .button__icon--blue--light:hover {
 	background-color: rgba(41, 128, 185, 1);
